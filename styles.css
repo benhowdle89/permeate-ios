@@ -120,8 +120,7 @@ strong {
 }
 
 .sections {
-  text-align: center;
-  letter-spacing: -0.31em;
+
 }
 
 .sections:before {
@@ -135,17 +134,15 @@ strong {
   display: inline-block;
   vertical-align: middle;
   height: 80%;
-  letter-spacing: normal;
-  word-spacing: normal;
 }
 
 .section-left {
-  width: 40%; 
+  width: 50%; 
   text-align: left;
 }
 
 .section-right {
-  width: 50%;
+
 }
 
 .app-icon {
