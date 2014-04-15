@@ -102,17 +102,12 @@ a:hover {
   opacity: 0.8;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 strong {
   font-weight: 700;
 }
 
 .wrap {
-  max-width: 800px;
+  max-width: 960px;
   margin: auto;
   padding: 0 20px;
 }
@@ -203,4 +198,8 @@ strong {
 
 .download {
   margin: 60px 0;
+}
+
+.hero-shot {
+  height: 120%;
 }

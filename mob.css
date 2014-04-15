@@ -1,0 +1,24 @@
+.sections {
+	padding-top: 60px;
+}
+
+.sections:before {
+	height: auto;
+}
+
+.section-left {
+	display: block;
+	width: 100%;
+}
+
+.section-right {
+	display: none;
+}
+
+.download {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
