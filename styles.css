@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1;
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #f7f7f7;
+  font-weight: 400;
+  line-height: 1.625;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #dff4ff; /* Safari */
+}
+::-moz-selection {
+  background: #dff4ff; /* Firefox */
+}
+
+em {
+  font-style: italic;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1 {
+  font-family: "effra", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+h3 {
+
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: -10px;
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 25px 0;
+}
+
+p {
+  line-height: 1.625;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.wrap {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.hero {
+  position: relative;
+  height: 90%;
+  background: url('img/mountains.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.sections {
+  text-align: center;
+  letter-spacing: -0.31em;
+}
+
+.sections:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.section-left, .section-right {
+  display: inline-block;
+  vertical-align: middle;
+  height: 80%;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+.section-left {
+  width: 50%; 
+  text-align: left;
+}
+
+.section-right {
+  width: 50%;
+}
+
+.app-icon {
+  max-width: 60px;
+}
+
+.intro {
+  margin-bottom: 25px;
+}
+
+.flag {
+  display: table;
+  width: 100%;
+}
+
+.flag__image,
+.flag__body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.flag--top .flag__image, .flag--top
+.flag__body {
+  vertical-align: top;
+}
+.flag--bottom .flag__image, .flag--bottom
+.flag__body {
+  vertical-align: bottom;
+}
+
+.flag__image {
+  padding-right: 10px;
+}
+.flag__image > img {
+/*  display: block;
+  max-width: none;*/
+}
+.flag--rev .flag__image {
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+.flag__body {
+  width: 100%;
+}
+
+.footer {
+  color: #006D80;
+  padding-top: 20px;
+}
+
+.download {
+  margin: 60px 0;
+}
