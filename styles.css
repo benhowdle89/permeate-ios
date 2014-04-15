@@ -198,5 +198,6 @@ strong {
 }
 
 .hero-shot {
-  height: 120%;
+  max-height: 120%;
+  max-width: 100%;
 }
