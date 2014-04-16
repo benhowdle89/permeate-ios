@@ -194,6 +194,9 @@ strong {
   font-size: 13px;
   color: #00A5BD;
   padding-top: 20px;
+}
+
+.footer p {
   text-shadow: none;
 }
 
