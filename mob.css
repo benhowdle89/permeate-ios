@@ -7,12 +7,13 @@
 }
 
 .section-left {
-	display: block;
-	width: 100%;
+	display: none;
 }
 
 .section-right {
-	display: none;
+	display: block;
+	width: 100%;
+	padding-top: 0;
 }
 
 .download {
@@ -25,12 +26,32 @@
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 44px;
 	position: relative;
-	top: 5px;
+	top: 14px;
 }
 
 h2 {
 	line-height: 1.625;
 	font-size: 20px;
+}
+
+.hero {
+	background: #006A7D;
+	height: 100%;
+}
+
+
+.download > .flag__body, .download > .flag__image {
+	display: block;
+	margin: auto;
+	padding: 0;
+}
+
+.download > .flag__image {
+	margin-bottom: 10px;
+}
+
+.blurb {
+	margin-bottom: 60px;
 }
