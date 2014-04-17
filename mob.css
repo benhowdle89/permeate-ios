@@ -1,5 +1,6 @@
 .sections {
-	padding-top: 60px;
+	padding-top: 30px;
+	min-width: 0;
 }
 
 .sections:before {
@@ -18,6 +19,8 @@
 
 .download {
 	text-align: center;
+	color: #8E9196;
+	padding-bottom: 30px;
 }
 
 .footer {
@@ -29,6 +32,7 @@ h1 {
 	font-size: 44px;
 	position: relative;
 	top: 14px;
+	color: #171717;
 }
 
 h2 {
@@ -37,10 +41,9 @@ h2 {
 }
 
 .hero {
-	background: #006A7D;
-	height: 100%;
+	background: none;
+	box-shadow: none;
 }
-
 
 .download > .flag__body, .download > .flag__image {
 	display: block;
@@ -53,5 +56,18 @@ h2 {
 }
 
 .blurb {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	line-height: 28px;
+	color: #8E9196;
+}
+
+.peek {
+	display: block;
+	padding-bottom: 30px;
+}
+
+
+.peek > img {
+	max-width: 100%;
 }
